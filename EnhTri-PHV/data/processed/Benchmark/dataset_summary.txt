@@ -1,0 +1,16 @@
+Dataset: Benchmark
+Protocol: benchmark_holdout_8_2
+Total pairs: 246213
+Positive pairs: 22383
+Negative pairs: 223830
+Negative/positive ratio: 10.000000
+Train pairs: 196970
+Train positive pairs: 17906
+Train negative pairs: 179064
+Test pairs: 49243
+Test positive pairs: 4477
+Test negative pairs: 44766
+Unique human proteins: 5959
+Unique virus proteins: 1072
+Total unique proteins: 7031
+Missing sequence IDs: 0

@@ -1,0 +1,40 @@
+=== Benchmark 5-Fold CV on Train Report (paper-default QICF, provided 8:2 split) ===
+
+[Fold metrics]
+fold=1  lgb_best_iter=207  lgb_best_auc=0.998199  AUROC=0.9982  AUPRC=0.9937  ACC@0.5=0.9972  Precision@0.5=1.0000  Recall@0.5=0.9693  F1@0.5=0.9844  MCC@0.5=0.9830
+fold=2  lgb_best_iter=910  lgb_best_auc=0.996505  AUROC=0.9965  AUPRC=0.9912  ACC@0.5=0.9972  Precision@0.5=0.9997  Recall@0.5=0.9693  F1@0.5=0.9843  MCC@0.5=0.9829
+fold=3  lgb_best_iter=81  lgb_best_auc=0.996934  AUROC=0.9969  AUPRC=0.9909  ACC@0.5=0.9969  Precision@0.5=0.9994  Recall@0.5=0.9662  F1@0.5=0.9825  MCC@0.5=0.9810
+fold=4  lgb_best_iter=1095  lgb_best_auc=0.997642  AUROC=0.9976  AUPRC=0.9942  ACC@0.5=0.9976  Precision@0.5=1.0000  Recall@0.5=0.9735  F1@0.5=0.9866  MCC@0.5=0.9853
+fold=5  lgb_best_iter=773  lgb_best_auc=0.997675  AUROC=0.9977  AUPRC=0.9936  ACC@0.5=0.9974  Precision@0.5=1.0000  Recall@0.5=0.9712  F1@0.5=0.9854  MCC@0.5=0.9841
+
+[CV mean]
+AUROC = 0.997391
+AUPRC = 0.992716
+ACC@0.5 = 0.997248
+Precision@0.5 = 0.999827
+Recall@0.5 = 0.969898
+F1@0.5 = 0.984634
+MCC@0.5 = 0.983261
+lgb_best_iter = 613.200000
+n_folds = 5
+split_strategy = provided_benchmark_train_5fold_cv
+fusion_mode = QICF
+quality_version = reliability_v2
+pair_quality_aggregation = mean
+
+[Summary JSON]
+{
+  "AUROC": 0.9973909058219197,
+  "AUPRC": 0.9927155630429928,
+  "ACC@0.5": 0.997248311925674,
+  "Precision@0.5": 0.9998268561631619,
+  "Recall@0.5": 0.969898282875484,
+  "F1@0.5": 0.9846339048949873,
+  "MCC@0.5": 0.9832608460696937,
+  "lgb_best_iter": 613.2,
+  "n_folds": 5,
+  "split_strategy": "provided_benchmark_train_5fold_cv",
+  "fusion_mode": "QICF",
+  "quality_version": "reliability_v2",
+  "pair_quality_aggregation": "mean"
+}

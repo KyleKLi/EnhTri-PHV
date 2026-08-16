@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated EnhTri-PHV manuscript."
+title: "EnhTri-PHV"
+type: software
+version: 1.0.0
+date-released: 2026-08-12
+authors:
+  - family-names: Zhang
+    given-names: Zhihong
+  - family-names: Li
+    given-names: Kaixiang
+  - family-names: Yao
+    given-names: Fei
+  - family-names: Zhao
+    given-names: Bihai
+  - family-names: Liu
+    given-names: Jia
+abstract: >-
+  Reference implementation of EnhTri-PHV, a trimodal human-virus
+  protein-protein interaction prediction framework using ProtT5 sequence
+  features, AlphaFold structural descriptors, Gene Ontology functional
+  semantics, QICF, and LightGBM.
+keywords:
+  - human-virus protein-protein interaction
+  - ProtT5
+  - AlphaFold
+  - Gene Ontology
+  - LightGBM
+license: BSD-3-Clause

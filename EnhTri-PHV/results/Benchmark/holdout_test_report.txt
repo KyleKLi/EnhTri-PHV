@@ -1,0 +1,63 @@
+
+=== Benchmark Independent Test Report (paper-default QICF, provided 8:2 split) ===
+
+protocol = benchmark_holdout_cv_ensemble
+fusion_mode = QICF
+quality_version = reliability_v2
+pair_quality_aggregation = mean
+split_strategy = provided_benchmark_8_2
+seed = 42
+n_folds = 5
+train_size = 196970
+train_pos = 17906
+train_neg = 179064
+test_size = 49243
+test_pos = 4477
+test_neg = 44766
+cv_mean_best_iter = 613.200000
+AUROC = 0.998562
+AUPRC = 0.994288
+ACC@0.5 = 0.996893
+Precision@0.5 = 0.999769
+Recall@0.5 = 0.966049
+F1@0.5 = 0.982620
+MCC@0.5 = 0.981088
+OOF_AUROC = 0.993676
+OOF_AUPRC = 0.986512
+OOF_ACC@0.5 = 0.997248
+OOF_Precision@0.5 = 0.999827
+OOF_Recall@0.5 = 0.969898
+OOF_F1@0.5 = 0.984635
+OOF_MCC@0.5 = 0.983262
+
+[Summary JSON]
+{
+  "protocol": "benchmark_holdout_cv_ensemble",
+  "fusion_mode": "QICF",
+  "quality_version": "reliability_v2",
+  "pair_quality_aggregation": "mean",
+  "split_strategy": "provided_benchmark_8_2",
+  "seed": 42,
+  "n_folds": 5,
+  "train_size": 196970,
+  "train_pos": 17906,
+  "train_neg": 179064,
+  "test_size": 49243,
+  "test_pos": 4477,
+  "test_neg": 44766,
+  "cv_mean_best_iter": 613.2,
+  "AUROC": 0.9985615020158282,
+  "AUPRC": 0.994288428835332,
+  "ACC@0.5": 0.9968929594053977,
+  "Precision@0.5": 0.9997688395746648,
+  "Recall@0.5": 0.9660486933214206,
+  "F1@0.5": 0.9826195615131206,
+  "MCC@0.5": 0.9810881692984428,
+  "OOF_AUROC": 0.9936763345202043,
+  "OOF_AUPRC": 0.9865115768466648,
+  "OOF_ACC@0.5": 0.997248311925674,
+  "OOF_Precision@0.5": 0.9998272884283247,
+  "OOF_Recall@0.5": 0.9698983580922595,
+  "OOF_F1@0.5": 0.9846354461957137,
+  "OOF_MCC@0.5": 0.9832615977807928
+}

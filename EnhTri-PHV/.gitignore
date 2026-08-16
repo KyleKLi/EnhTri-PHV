@@ -1,0 +1,35 @@
+__pycache__/
+*.py[cod]
+*.so
+*.dll
+.venv/
+venv/
+.vscode/
+.idea/
+.cache/
+tmp/
+temp/
+
+# Generated features, caches, and trained models
+outputs/features/
+*.joblib
+*.pkl
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.model
+
+# Large external resources
+models/*
+!models/README.md
+data/resources/alphafold_mmcif/*
+!data/resources/alphafold_mmcif/README.md
+
+# Runtime logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
